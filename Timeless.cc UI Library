@@ -2,8 +2,6 @@ local PCR_1 = Instance.new("ScreenGui")
 local TweenService = game:GetService('TweenService');
 local uis = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
-
-_G.BuildData = ""
   
 local function createInstance(class, props)
 	local inst = Instance.new(class)
